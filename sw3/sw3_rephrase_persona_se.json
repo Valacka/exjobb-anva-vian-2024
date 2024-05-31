@@ -1,0 +1,51 @@
+[
+    {
+        "pre_prompt": "Skriv om den följande texten för att använda bättre svenska, som flyter på bättre.. Exempel: <start>En begäran har enligt reglerna från oss skickats.</start> blir <start>Vi har skickat en begäran om information enligt reglerna.</start> Exempel: <start>Vi vill från dig för att hjälpa vår utvärdering höra din åsikt.</start> blir <start>Vi vill höra din åsikt för att hjälpa vår utvärdering.</start> Exempel: <start>",
+        "post_prompt": "'</start> becomes <start> "
+    },
+    {
+        "prompt": "Många människor i Sverige, de tycker om att äta fisk ofta, vilket är bra för hälsan.",
+        "type": "Rephrase Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Bilen den körde fort över vägen och krockade mot ett träd, vilket var mycket farligt.",
+        "type": "Rephrase Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Hon gick till butiken, men hon glömde köpa vad hon behövde för att göra middag.",
+        "type": "Rephrase Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Han kom hem efter en väldigt lång och ansträngande dag på jobbet, och när han väl var hemma kände han sig extremt trött och det enda han ville var att gå och lägga sig för att sova direkt utan att äta något.",
+        "type": "Rephrase Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Resultaten från studien som har genomförts visar att det finns en tydlig korrelation mellan folk som ändrar sina kostvanor genom att äta mer grönsaker och mindre kött, och en förbättring i deras allmänna hälsotillstånd, vilket är en viktig observation som kan ha stora konsekvenser för folkhälsoarbete.",
+        "type": "Rephrase Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Det fanns en stor försening i leveransen av produkterna på grund av logistiska problem, vilket ledde till att de inte kunde säljas i tid för den planerade kampanjen, och detta orsakade en betydande förlust för företaget under den aktuella månaden, vilket påverkade deras kvartalsresultat negativt.",
+        "type": "Rephrase Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Han hade tillbringat hela dagen på kontoret, arbetat intensivt med flera krävande projekt som var viktiga för företagets framtid, vilket krävde hans fullständiga koncentration och engagemang. När han äntligen anlände hem efter denna långa och utmattande dag, var han så trött att han inte ens kunde tänka på att laga mat, och istället för att äta, beslutade han att gå och lägga sig direkt för att försöka återhämta sig.",
+        "type": "Rephrase Persona",
+        "token_length": 100.0
+    },
+    {
+        "prompt": "En omfattande studie som nyligen genomförts har klart och tydligt visat att de individer som gjort betydande förändringar i sina matvanor, genom att öka intaget av grönsaker betydligt och minska konsumtionen av kött, inte enbart har upplevt förbättringar i deras fysiska hälsa men även rapporterat en ökad känsla av mental klarhet och välbefinnande. Dessa resultat pekar starkt på att förändringar i kost kan ha omfattande positiva effekter på människors övergripande hälsotillstånd och livskvalitet.",
+        "type": "Rephrase Persona",
+        "token_length": 100.0
+    },
+    {
+        "prompt": "Företaget mötte en enorm utmaning när den kritiskt viktiga leveransen av deras nya produktlinje oväntat blev försenad på grund av komplexa tullproblem vid gränsen. Detta missöde ledde till att de inte kunde leverera produkterna till kunderna enligt det planerade schemat, vilket inte bara orsakade betydande ekonomiska förluster för månaden utan också resulterade i skadat rykte och missnöjda kunder. Denna situation utgör en potentiell risk för långvariga negativa effekter på företagets varumärkesimage och trovärdighet, vilket kan undergräva kundförtroendet i flera år framöver.",
+        "type": "Rephrase Persona",
+        "token_length": 100.0
+    }
+]

@@ -1,0 +1,256 @@
+[
+    {
+        "pre_prompt": "Take the given text and make it more formal, using bureaucratic language. Example: <start>We need to check and make our processes better to work more efficiently. This must be written down properly as our rules say.</start> becomes <start>It is imperative that we examine and improve our operational processes to enhance our efficiency. Furthermore, this must be documented in accordance with our established protocols and regulations.</start> Example: <start>To keep our services high quality, everyone involved must check the quality often, as our authorities ask.</start> becomes <start>In order to maintain the high standard of our services, it is required that all parties involved engage in regular quality assessments, as stipulated by our governing authorities.</start> Example: <start>",
+        "post_prompt": "'</start> becomes <start> "
+    },
+    {
+        "prompt": "Let's talk tomorrow about our project progress.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Please send in your expense reports before the end of the day.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "We have a workshop next week. Can you confirm if you're available?",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "We need your ideas for the marketing campaign by the end of the week.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Remember to update your task progress in the project tracker. Thank you!",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "I've attached an important document. Your feedback would be great.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Just a reminder: Please finish the training module by Friday.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Can we talk about client feedback this afternoon?",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "We need an update on conference logistics. Can you review and give input?",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Let's schedule a call to discuss the project as soon as possible. When are you available?",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },    
+    {
+        "prompt": "Confirming meeting time for tomorrow. Let's aim for 10 AM. Does that work for everyone?",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "We urgently need a project status update for the client. Can you provide your input by the end of the day?",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Just a reminder: Our quarterly report is due next week. Let's make sure all the data is accurate and up-to-date.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "We need revisions to the proposal. Please review and include client feedback before sending the final version.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Our team training session is scheduled for Thursday. Please make sure to block your calendars accordingly.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "We have a budget review meeting on Friday. Please prepare any necessary documentation in advance.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Could you do me a quick favor? Can you send over the latest sales figures for our presentation? Thanks in advance!",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "The client meeting has been rescheduled to accommodate their availability. Please confirm the new time slot.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Don't forget to complete your performance self-assessment by the end of the week. Your input is important!",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Equipment maintenance is scheduled for Friday. Please make sure all necessary arrangements are made beforehand.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Urgent: Server maintenance tonight from 10 PM to 2 AM. Please ensure all critical tasks are saved and closed before this time to avoid disruption.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Our project kickoff meeting is tomorrow at 9:30 AM. Details about the agenda and location are attached. Let's start strong!",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Quarterly performance reviews are coming up. Please schedule your one-on-one sessions with me as soon as you can.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Just a reminder: We have an HR policy updates webinar this Friday at 3 PM. All staff must attend. A Zoom link will be provided.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "We've launched a client feedback survey. Please encourage participation among your contacts. Valuable insights will help us improve our services.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "We have a team-building event next Saturday. Please RSVP by Wednesday for catering arrangements. Let's bond outside the office!",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "The marketing campaign launch is delayed. We need more time for fine-tuning. The new launch date will be announced later. Stay tuned for updates.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "We have an emergency drill tomorrow at 11 AM. Please review emergency procedures beforehand. Safety is our priority!",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Our annual company picnic is this Sunday. Don't forget to sign up for the volleyball tournament. There are prizes for the winning team!",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "We're having a town hall meeting next week to discuss recent organizational changes. Your questions and feedback are important. Let's keep communication open and transparent.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Attention all employees: Due to unexpected issues, the office will be closed tomorrow. Please work remotely if possible. Check your emails for further updates and instructions on accessing essential resources.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Important update: Our website will be undergoing maintenance tonight from 10 PM to 2 AM. Expect temporary service interruptions. We apologize for any inconvenience and thank you for your patience.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Reminder: Health and safety training is tomorrow at 9 AM in the conference room. All staff must attend to ensure a safe workplace environment.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "We're looking for volunteers for next month's charity drive. Sign up by the end of the week if you're interested in making a positive impact in our community.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Finance department meeting rescheduled to Thursday at 2 PM due to conflicting schedules. Your presence is appreciated. Apologies for any inconvenience.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Update on company retreat: It will now take place from Friday to Sunday instead of Thursday to Saturday due to venue availability. Please adjust your calendars accordingly.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Attention marketing team: The deadline for submitting campaign proposals has been extended to next Friday. Use this time to refine your ideas.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Emergency preparedness drill postponed. We're reviewing our protocols to ensure safety standards are met. Thank you for your cooperation.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Reminder: Tomorrow is Bring Your Child to Work Day. Activities are planned throughout the day to inspire the next generation.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Design competition for our new company logo launched. Submit your designs by the end of the month to showcase your talent!",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Due to severe weather conditions, the office will be closed tomorrow. Please work remotely and ensure you have access to necessary resources. Keep communication open with your team regarding project timelines and availability. Stay safe while maintaining productivity during this time.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Our quarterly financial report presentation has been rescheduled to next Wednesday at 2 PM. This change allows for additional analysis, ensuring accuracy in our projections. Your attendance and input during this session are vital to our continued success and growth as a company.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Attention all department heads: The monthly strategy meeting is scheduled for next Monday at 10 AM in the conference room. Please come prepared to discuss your department's goals, challenges, and action plans for the upcoming quarter. Collaboration among departments is essential for achieving our organizational objectives.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Urgent notice: A security breach has been detected in our network. IT is actively investigating the issue, and precautionary measures are being implemented to safeguard our systems. Until further notice, please refrain from accessing sensitive information and report any suspicious activity immediately. Your vigilance and cooperation are greatly appreciated during this critical time.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Friendly reminder: The company-wide wellness challenge begins next week. We encourage everyone to participate in the daily activities, track your progress, and compete for prizes. Let's prioritize our health and well-being as we strive for personal and professional excellence together as a team.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Update on office renovations: Construction will commence next Monday and is expected to last six weeks. During this period, certain areas of the office may be inaccessible, and noise disruptions are possible. We appreciate your patience and cooperation as we enhance our workspace to better serve the needs of our employees.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Attention sales team: The monthly sales meeting has been rescheduled to next Thursday at 3 PM. Please take this opportunity to review the latest sales figures and come prepared to discuss strategies for increasing revenue and improving customer satisfaction. Your contributions to these discussions are invaluable as we work towards achieving our sales targets and organizational goals.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Just a reminder: Performance evaluations for this quarter are due by the end of the month. We encourage all employees to take this opportunity to reflect on their achievements, areas for growth, and career aspirations. Your input will contribute to meaningful discussions about your professional development and growth within the company.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Important update regarding benefits enrollment: The deadline to make changes to your benefits elections has been extended to Friday. If you have any questions or need assistance with your benefits selections, please don't hesitate to reach out to the HR department. Your health and well-being are of utmost importance to us, and we want to ensure that you have the support and resources you need.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Announcement: Our annual company picnic is scheduled for this Saturday, featuring food, games, and team-building activities for employees and their families. To help us ensure that we have enough food and supplies for everyone, please RSVP by Wednesday. Let's come together to celebrate our achievements and strengthen our bonds as a team.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    }
+]

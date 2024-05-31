@@ -1,0 +1,51 @@
+[
+    {
+        "pre_prompt": "Rewrite the coming text to use more fluid language. Exempel: <start>A request has from us to you been sent.</start> becomes <start>We've sent a request to you.</start> Exempel: <start>We want you to tell us your opinion so that we can use it to help our evaluation.</start> becomes <start>We'd like your opinion to improve our evaluation.</start> Exempel: <start>",
+        "post_prompt": "'</start> becomes <start> "
+    },
+    {
+        "prompt": "Many people in Sweden, they like to often eat fish, which is good for the health.",
+        "type": "Rephrase Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "The car, it drove fast across the road and collided with a tree, which was very dangerous.",
+        "type": "Rephrase Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "She went to the store, but she forgot to buy what she needed to make dinner.",
+        "type": "Rephrase Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "He came home after a very long and exhausting day at work, and when he finally was home he felt extremely tired and the only thing he wanted was to go to bed to sleep right away without eating anything.",
+        "type": "Rephrase Persona",
+        "token_length": 75.0
+    },
+    {
+        "prompt": "The results from the study that has been conducted show that there is a clear correlation between people who change their eating habits by eating more vegetables and less meat, and an improvement in their general health condition, which is an important observation that can have major consequences for public health work.",
+        "type": "Rephrase Persona",
+        "token_length": 75.0
+    },
+    {
+        "prompt": "There was a big delay in the delivery of the products because of logistical problems, which led to them not being able to be sold in time for the planned campaign, and this caused a significant loss for the company during the current month, which affected their quarterly results negatively.",
+        "type": "Rephrase Persona",
+        "token_length": 75.0
+    },
+    {
+        "prompt": "He had spent the entire day at the office, worked intensively on several demanding projects that were important for the future of the company, which required his complete concentration and engagement. When he finally arrived home after this long and exhausting day, he was so tired that he couldn't even think about cooking, and instead of eating, he decided to go to bed directly to try to recover.",
+        "type": "Rephrase Persona",
+        "token_length": 100.0
+    },
+    {
+        "prompt": "A comprehensive study that has recently been conducted has clearly shown that individuals who have made significant changes to their dietary habits, by significantly increasing their intake of vegetables and reducing their meat consumption, have not only experienced improvements in their physical health but also reported an increased sense of mental clarity and well-being. These results strongly point to the fact that changes in diet can have extensive positive effects on people's overall health status and quality of life.",
+        "type": "Rephrase Persona",
+        "token_length": 100.0
+    },
+    {
+        "prompt": "The company faced a huge challenge when the critically important delivery of their new product line was unexpectedly delayed due to complex customs issues at the border. This mishap led to them not being able to deliver the products to the customers according to the planned schedule, which not only caused significant economic losses for the month but also resulted in damaged reputation and dissatisfied customers. This situation poses a potential risk for long-term negative effects on the company's brand image and credibility, which could undermine customer confidence for many years to come.",
+        "type": "Rephrase Persona",
+        "token_length": 120.0
+    }
+]

@@ -1,0 +1,261 @@
+[
+    {
+        "pre_prompt": "Ta och gör om den givna texten till att använda mindre formell och enkel svenska. Exempel: <start>Vänligen överlämna dokumenten i fråga efter fullbordandet av ditt arbete. Jag är i behov av dem för att kunna fortskrida med mina åtaganden.</start> blir till <start>Skicka dokumenten efter att du är klar med ditt arbete, jag behöver dem innan jag kan fortsätta.</start> Exempel: <start>Ert inkomna svar är ofullständigt då det ej inkluderar de specificerade punkter vi efterfrågade. Vänligen lämna in en reviderad respons som inkluderar samtliga angivna punkter.</start> blir till <start>Ditt svar saknar punkterna vi bad om så du behöver skicka in ett nytt svar som har med dessa punkter.</start> Exempel: <start>",
+        "post_prompt": "'</start> blir till <start> "
+    },
+    {
+        "prompt": "Granska dokumentet och ge feedback.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Kom ihåg att boka mötesrum för nästa vecka.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Kunden känner till förseningen, vi håller dem informerade.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Vi väntar fortfarande på din signatur på kontraktet.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Har du kollat den senaste rapporten?",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Tack för förståelsen, jag kommer vara sen till mötet.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Vi behöver ditt snabba svar för att fortsätta.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Jag skickade filen du begärde.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Vi måste lösa problemet så snabbt som möjligt.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Kunden vill ha en uppdatering så fort som möjligt.",
+        "type": "Bureaucratic Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Hej! Kan du vänligen se över det här dokumentet och ge mig din åsikt om det?",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Tack för att du påminde mig! Jag ska omedelbart boka mötesrummet för nästa veckas möte.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Vi beklagar eventuella förseningar. Vi arbetar på att lösa det och kommer hålla dig uppdaterad.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Kan du snälla skriva under avtalet så snart som möjligt? Det skulle vara till stor hjälp för oss.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Har du hunnit gå igenom den senaste rapporten? Vi vill säkerställa att allt är korrekt.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Ursäkta för förseningen. Jag är på väg och kommer vara där så snart jag kan.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Vi behöver ditt svar inom kort för att kunna fortsätta med projektet enligt plan.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Filen du begärde är nu skickad. Låt mig veta om du behöver något annat.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Det är viktigt att vi löser detta problem så snabbt som möjligt för att undvika komplikationer.",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Kunden förväntar sig en uppdatering inom kort. Kan du hjälpa till med det?",
+        "type": "Bureaucratic Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Hej, jag har skickat över det dokument du begärde. Kan du snälla granska det och ge mig din åsikt så snart som möjligt?",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Tack för att du påminde mig! Jag ska genast boka mötesrummet för nästa veckas teammöte och se till att allt är klart i tid.",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Vi är medvetna om eventuella förseningar och jobbar hårt för att lösa dem. Du kommer få uppdateringar så fort vi har ny information.",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Skulle du kunna ta en stund att skriva under avtalet så snart som möjligt? Det skulle hjälpa oss att hålla vårt schema.",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Har du haft chans att gå igenom den senaste rapporten? Vi vill vara säkra på att allt är korrekt innan vi går vidare.",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Ursäkta för förseningen. Jag är på väg till mötet nu och kommer vara där så snart jag kan. Tack för din förståelse!",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Ditt snabba svar behövs för att vi ska kunna fortsätta med projektet enligt plan. Kan du snälla svara så fort som möjligt?",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Filen du efterfrågade har nu skickats. Låt mig veta om det är något annat jag kan hjälpa dig med.",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Det är viktigt att vi löser detta problem så snabbt som möjligt för att undvika större komplikationer längre fram. Vi behöver din hjälp med detta.",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Kunden förväntar sig en uppdatering inom kort. Kan du vänligen se till att vi ger dem den information de behöver?",
+        "type": "Bureaucratic Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Hej! Jag har skickat över dokumentet du efterfrågade. Vänligen granska det och återkoppla så snart som möjligt så vi kan gå vidare med projektet. Tack så mycket!",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Tack för att du påminde mig! Jag kommer omedelbart att boka mötesrummet för nästa veckas teammöte och säkerställa att allt är klart i tid för mötet.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Vi är medvetna om eventuella förseningar och arbetar intensivt för att lösa dem. Du kommer att få regelbundna uppdateringar så snart vi har mer information.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Kan du snälla ta en stund att skriva under avtalet så snart som möjligt? Det skulle vara till stor hjälp för oss att hålla oss på rätt spår med våra projekt.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Har du haft tillfälle att gå igenom den senaste rapporten? Vi vill säkerställa att allt är korrekt innan vi tar nästa steg i projektet.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Ursäkta för förseningen. Jag är på väg till mötet nu och kommer att vara där så snart jag kan. Tack för din förståelse och tålamod!",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Ditt snabba svar är avgörande för att vi ska kunna fortsätta med projektet enligt plan. Kan du snälla svara så fort som möjligt?",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Filen du begärde har nu skickats. Låt mig veta om det är något annat jag kan göra för att hjälpa till.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Det är av yttersta vikt att vi löser detta problem så snabbt som möjligt för att undvika eventuella komplikationer längre fram. Vi uppskattar din hjälp i detta.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Kunden förväntar sig en uppdatering inom kort. Kan du vänligen se till att vi levererar den information de behöver så snabbt som möjligt?",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Announcement: Due to inclement weather, the office will be closed tomorrow. All employees are expected to work remotely. Please ensure you have access to necessary resources and communicate with your team regarding project timelines and availability. Stay safe and productive.",
+        "type": "Bureaucratic Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Hej! Jag har precis skickat över det dokument du efterfrågade. Vänligen ta dig tid att noggrant granska det och ge mig din åsikt så snart som möjligt så att vi kan fortsätta med projektet enligt planen. Tack så mycket för din hjälp!",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Tack för att du påminde mig! Jag ska genast boka mötesrummet för nästa veckas teammöte och se till att allt är ordnat i tid för mötet. Jag uppskattar verkligen din påminnelse!",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Vi är fullt medvetna om eventuella förseningar och arbetar intensivt för att lösa dem. Du kan vara säker på att vi kommer att hålla dig informerad om varje steg vi tar för att lösa situationen.",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Skulle du kunna avsätta en stund för att skriva under avtalet så snart som möjligt? Det skulle göra det möjligt för oss att hålla projektet på rätt spår och undvika onödiga förseningar. Tack!",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Har du haft möjlighet att gå igenom den senaste rapporten? Vi vill säkerställa att alla detaljer är korrekta innan vi tar nästa steg i projektet. Tack för din uppmärksamhet!",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Ursäkta för förseningen. Jag är på väg till mötet nu och kommer att vara där så snart jag kan. Tack för din förståelse och jag ser fram emot att möta er där!",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Ditt snabba svar är avgörande för att vi ska kunna fortsätta med projektet enligt plan. Kan du snälla svara så fort som möjligt? Tack så mycket för din medverkan!",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Filen du begärde har nu skickats. Låt mig veta om det är något annat jag kan göra för att underlätta för dig. Tack för ditt tålamod och jag ser fram emot att höra från dig!",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Det är av yttersta vikt att vi löser detta problem så snabbt som möjligt för att undvika eventuella komplikationer längre fram. Vi uppskattar verkligen ditt samarbete i detta ärende!",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    },
+    {
+        "prompt": "Kunden förväntar sig en uppdatering inom kort. Kan du snälla se till att vi levererar den information de behöver så snabbt som möjligt? Tack för din hjälp och förståelse!",
+        "type": "Bureaucratic Persona",
+        "token_length": 80.0
+    }
+]

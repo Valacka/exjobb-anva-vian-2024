@@ -1,0 +1,756 @@
+[
+    {
+        "pre_prompt": "Correct all errors in spelling, grammar, and punctuation. All responses should be in English. Always finish with </start>. For example: <start>i have been in Thailand insted of going to school so I have received a fine of ten thousand kronor</start> becomes <start>I have been in Thailand instead of going to school, so I have received a fine of ten thousand kronor.</start> Another example: <start>gustav Vasa was born in 1496 and are one of Swedens most prominent historical figures and is considered the founder of the modern Swedish kingdom.</start> becomes <start>Gustav Vasa was born in 1496 and is one of Sweden's most prominent historical figures and is considered the founder of the modern Swedish kingdom.</start> Another example: <start>",
+        "post_prompt": "</start> becomes: <start>"
+    },
+    {
+        "prompt": "Each mroning he walkes to his workplace through the park.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Each mornings he walking to his workplace through the park.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "each morning he walks to his workplace through the park",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Today we boked our flight tickets for our next holaday.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Today we booked our flight's ticket's for our next holiday.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "today we booked our flight tickets for our next holiday",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "She learnt to bake good bred from her friend's granmoter.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "She learnt to baking good bread from she's friend's grandmother.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "she learnt to bake good bread from her friend's grandmother",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "The cildren dona't look forward to the upcoming science fair.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "The children don't looking forwards to the upcoming science fair.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "the children don't look forward to the upcoming science fair",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "He's playing fotbol each saturday with his friends and acquintinses.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "His playing football each saturday with he's friends and acquaintances.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "he's playing football each saturday with his friends and acquaintances",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "They're going to the koncert to se their favorite band.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "They is going to the concert to see there favorite band.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "they're going to the concert to see their favorite band",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Smartphones have foreva changed how we commicate with each other.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Smartphone's have forever changing how we communicate with each other.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "smartphones have forever changed how we communicate with each other",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "We have to protec our forests to preserve our pl\u00e4net.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Us have to protect our forest's to preserve our planet.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "we have to protect our forests to preserve our planet",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Regular eksersice is veri important for both body and spirit.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Regular exercise very are important for both body and spirit.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "regular exercise is very important for both body and spirit",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "They saw a new exiting movie at the xinema yesterday.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "They see a new excite movie at the cinema yesterday.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "they saw a new exciting movie at the cinema yesterday",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "In the summer many people enjoy spending time at the see and feeling the lovely ocean brese against their faces.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "In the summer enjoy many people spending time at the sea and feeling the lovely ocean breeze against there faces.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "in the summer many people enjoy spending time at the sea and feeling the lovely ocean breeze against their faces",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "When she oped the old book, a scent of forgotten knowledge and exciting adventures spread through the lartche, silent library.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "When opened she the old book, a scent of forgot knowledge and exciting adventures spread through the large, silent library.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "when she opened the old book a scent of forgotten knowledge and exciting adventures spread through the large silent library",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "After a long day at work, he's looking fowrad to coming home and spending some valuable timme with his family.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "After a long day at work, his looking forward to coming home and spending some time valuable with his family.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "after a long day at work he's looking forward to coming home and spending some valuable time with his family",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "During the spring, nature avakens again with colorful flowers, green grass and the birds' hapi songs in the bright mornings.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "During the spring, nature awakens again with colorful flower's, green grass and the birds' happy song's in the bright mornings.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "during the spring nature awakens again with colorful flowers green grass and the birds' happy songs in the bright mornings",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "She always dreemet of traveling the earth and experiencing different foreign cultures, new foods, strange music, and esiting historical places.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "She always dreamt of traveling the earth and experience different foreign cultures, new foods, strange music, and excite historical places.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "she always dreamt of traveling the earth and experiencing different foreign cultures new foods strange music and exciting historical places",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Every Sunday, they walk to the local farmers' market to buy veg tables, fruit, and other locally produced produits for dinner.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Every Sunday, they walk to the local farmers' market to buy vegetable's, fruit, and other locally produces products for dinner.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "every sunday they walk to the local farmers' market to buy vegetables fruit and other locally produced products for dinner",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Despite the cold wether, they decided to make the tripp to the top of the mountain close to the city.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Despite the cold weather, they decides to make the trip to the top of the mountain's close to the city.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "despite the cold weather they decided to make the trip to the top of the mountain close to the city",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "During the lesion, the teacher discusd the importance of understanding historical events to learn from the past.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "During the lesson, the teacher discussed the importance of understand historical event's to learn from the past.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "during the lesson the teacher discussed the importance of understanding historical events to learn from the past",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "In the kitchen, sents of newly baked bread and freshly brewed coffee danced around, creating a warm and cosy atmosphere.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "In kitchen, scents of newly baked bread and freshly brewed coffee dancing around, creating a warm and cozy atmosphere.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "in the kitchen scents of newly baked bread and freshly brewed coffee danced around creating a warm and cozy atmosphere",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "He read his new book so intensely tat he didn't notice the passing of time, and sujdjdenly it was midnight.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "His reading his new book so intensely that he didn't notice the passing of time, and suddenly it was midnight.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "he read his new book so intensely that he didn't notice the passing of time and suddenly it was midnight",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "On the windiest day, she walked through the park and saw the leaves blowyng in the wind. Everi step she took echoed with loneliness and a longing for warmer days.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "On the windiest day, she walking through the park and saw the leafs blowing in the wind. Every step she took echoed with loneliness and a longing for warmer days.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "on the windiest day she walked through the park and saw the leaves blowing in the wind every step she took echoed with loneliness and a longing for warmer days",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "He packed his bag with great care, placing the camera and a water bottle in the side pocket. Today, he would be clammbing the montagne and capturing its great view.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "He packed he's bag with great care, placing the camera and a water bottle in the side pocket. Today, he would be climber the mountain and capturing its great view.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "he packed his bag with great care placing the camera and a water bottle in the side pocket today he would be climbing the mountain and capturing its great view",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "At the edge of the ocean, an old house stood still, its windows reflecting the sannset. The famile who once lived there had left many stories and old memories behind.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "At the edge of the ocean, an old house stood still, its windows reflecting the sunset. The family who once lived there had left many storie's and old memorie's behind.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "at the edge of the ocean an old house stood still its windows reflecting the sunset the family who once lived there had left many stories and old memories behind",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "In the city, where the nites are never dark, a cat was wandering alone on the glitering sidewalk. Every corner and alley tells its own story. The cat was searching.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "In the city, where the nights are never dark, a cat were wandering alone on the glittering sidewalk. Every corner and alley tells its own story. The cat was search.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "in the city where the nights are never dark a cat was wandering alone on the glittering sidewalk every corner and alley tells its own story the cat was searching",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "The moon lit the field where the children had been playing. The gras bent under the light breeze, as if whispering of sumr days passed. Suddenly, a sound was heard.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "The moon lit the field where the children had been playing. The grass bent under the light breeze, as if whispering of summer days pass. Suddenly, a sound were heard.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "the moon lit the field where the children had been playing the grass bent under the light breeze as if whispering of summer days passed suddenly a sound was heard",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "The library was quiet except for the soft rustling of pages being turned. Each book shelwed a new world, ready to be explored by the next curious visiter.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "The library was quiet except for the soft rustling of pages being turn. Each book shelved a new world, ready to be exploring by the next curious visitor.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "the library was quiet except for the soft rustling of pages being turned each book shelved a new world ready to be explored by the next curious visitor",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "He stood at the reilway station, waiting for the trein that would take him back to his childhood town. His heart beat in time with the ticking of the clock.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "He stand at the railway station, wait for the train that would take him back to his childhood town. His heart beat in time with the ticking of the clock.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "he stood at the railway station waiting for the train that would take him back to his childhood town his heart beat in time with the ticking of the clock",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Under a blue sky, everyone in the village gatherered to celebrate Midsummer together. Songs were sung and laufter shared, and the sense of community was stronger than ever.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Under a blue sky, everyone in the village gathered to celebrate Midsummer together. Songs are sung and laughter shared, and the sense of community was stronger then ever.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "under a blue sky everyone in the village gathered to celebrate midsummer together songs were sung and laughter shared and the sense of community was stronger than ever",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "She flipped through her old photo album and remembered friends she had not seen in yeers. Each pictre was like a window to a bygone time, a portal to what was.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "She flipping through she old photo album and remembered friends she had not seen in years. Each picture was like a window to a bygone time, a portal to what was.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "she flipped through her old photo album and remembered friends she had not seen in years each picture was like a window to a bygone time a portal to what was",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "As the sun slowly set behind the horizon, he prepared the evening's dinner. The scents of thyme and rosemare filled the kitchen, and everyone in the house felt the hungr coming.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "As the sun slowly setting behind the horizon, he prepared the evening's dinner. The scents of thyme and rosemary filled the kitchen, and everyone in the house felt the hunger come.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "as the sun slowly set behind the horizon he prepared the evening's dinner the scents of thyme and rosemary filled the kitchen and everyone in the house felt the hunger coming",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "The kitchen smels of freshly baked bread. Grandma has been up early, preparing everything for the family's Sunday breakfast. The table is set with homemade jams, butter, and freshly squeezed juice. A feeling of warmth spreads in the room, and it smels delightful.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The kitchen smelling of freshly baked bread. Grandma has been up early, preparing everything for the family's Sunday breakfast. The table is set with homemade jams, butter, and freshly squeezed juice. A feels of warmth spreads in the room, and it smells delightful.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "the kitchen smells of freshly baked bread grandma has been up early preparing everything for the family's sunday breakfast the table is set with homemade jams butter and freshly squeezed juice a feeling of warmth spreads in the room and it smells delightful",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The old book lies open on the table in front of the fireplace. The pages have yellowed over time, and the text tells of adventures in foreign lands. The reader is drawn into a world of mistery and discovery, surronded by the fire.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The old book lie's open on the table in front of the fireplace. The pages have yellowed over time, and the text tells of adventures in foreign lands. The reader is draws into a world of mystery and discovery, surrounded by the fire.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "the old book lies open on the table in front of the fireplace the pages have yellowed over time and the text tells of adventures in foreign lands the reader is drawn into a world of mystery and discovery surrounded by the fire",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The path is wet and muddy, but the view is endlessly beautiful. Birds chirp, and nature slowly awakens to life. The hiker paks up his thangs and begins his journey toward the next adventure. The day was good.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The path is wet and muddy, but the view is endlessly beautifully. Birds chirp, and nature slowly awakens to life. The hiker packs up his things and begins he journey toward the next adventure. The day was good.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "the path is wet and muddy but the view is endlessly beautiful birds chirp and nature slowly awakens to life the hiker packs up his things and begins his journey toward the next adventure the day was good",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The city comes to life during the early morning hours. Street vendors set up their stands, and the smell of fresh caffee spreads through the air. People hurri to their jobs, while the morning light casts long shadows over the sidewalks.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The city comes to live during the early morning hours. Street vendors set up there stands, and the smell of fresh coffee spreads through the air. People hurry to their jobs, while the morning light casts long shadows over the sidewalks.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "the city comes to life during the early morning hours street vendors set up their stands and the smell of fresh coffee spreads through the air people hurry to their jobs while the morning light casts long shadows over the sidewalks",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "By the sea stands an old lighthouse that has witnessed countless storms come and go. Large waves break powerfuly against the cliffs, and foam flies through the air. The litehouse stands firm, a reliable guide through the centuries.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "By the sea stands an old lighthouse that has witnessed countless storms come and go. Large waves break powerfully against the cliffs, and foam flies through the air. The lighthouse stands firm, a reliably guiding through the centuries.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "by the sea stands an old lighthouse that has witnessed countless storms come and go large waves break powerfully against the cliffs and foam flies through the air the lighthouse stands firm a reliable guide through the centuries",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "In the quiet corners of the library, one can hear pages turning and whispered conversations. Students leen over their books, searching for knowledge. The walls are covered with boocks from floor to ceiling, each spine telling a new story. The ceiling is high.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "In the quiet corners of the library, one can hear pages turning and whispered conversations. Students lean over their books, searching for knowledge. The walls are covered with books from floor to ceiling, each spine telling an new story. The ceiling are high.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "in the quiet corners of the library one can hear pages turning and whispered conversations students lean over their books searching for knowledge the walls are covered with books from floor to ceiling each spine telling a new story the ceiling is high",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Under a starlit ski, the family gathers around the campfyre. They listen to grandfather's stories of his youthful adventures. The fire crackles and creates a magical atmosphere where old memories come alive again. He talks about his days in the deserts of Egypt.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Under a starlit sky, the family gathers around the campfire. They listen to grandfather's storys of his youthful adventures. The fire crackles and creating a magical atmosphere where old memories come alive again. He talks about his days in the deserts of Egypt.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "under a starlit sky the family gathers around the campfire they listen to grandfather's stories of his youthful adventures the fire crackles and creates a magical atmosphere where old memories come alive again he talks about his days in the deserts of egypt",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "In the square, people gather to celeblebrate the city's annual festival. The music begins to ekko between the buildings, and dancers dressed in colorful costumes spin around. The joy is palpable, and everyone is welcome to join in the festivities.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "In the square, people gather to celebrate the city's annual festival. The music beginning to echo between the buildings, and dancers dressed in colorful costumes spin around. The joy are palpable, and everyone is welcome to join in the festivities.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "in the square people gather to celebrate the city's annual festival the music begins to echo between the buildings and dancers dressed in colorful costumes spin around the joy is palpable and everyone is welcome to join in the festivities",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The frist forst of autumn has settled over the landscape, and the leaves have changed to gold and red. There is a stillness in the air. It is a time for reflection and preparation for the upcoming winter.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The first frost of autumn has settled over the landscape, and the leaves have changed to gold and red. There are a stillness in the air. It are a time for reflection and preparation for the upcoming winter.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "the first frost of autumn has settled over the landscape and the leaves have changed to gold and red there is a stillness in the air it is a time for reflection and preparation for the upcoming winter",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The sun shines brightly over the small town where people walk clamly on the streets. Children laugh and play in the park, and a gentle breeze makes the trees whisper. A man plays the akordion joyfully. Life feels simple here.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "The sun shines brightly over the small town where people walk calmly on the streets. Children laugh and plays in the park, and a gentle breeze makes the trees whisper. A man plays the accordion joyful. Life feels simple here.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "the sun shines brightly over the small town where people walk calmly on the streets children laugh and play in the park and a gentle breeze makes the trees whisper a man plays the accordion joyfully life feels simple here",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "When autum winds start howling through the city, the streets are covered with a blanket of colorful leaves. People dress warmer and walk quickly along the sidewalks. Caf\u00e9s become refugees where one can enjoy hot drinks and watch the raindrops slowly falling outside the windows, while autumn charm sneaks into everyday life.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "When autumn winds start howled through the city, the streets are covering with a blanket of colorful leaves. People dress warmer and walk quickly along the sidewalks. Caf\u00e9s become refuges where one can enjoy hot drinks and watch the raindrops slowly falling outside the windows, while autumns charm sneaks into everyday life.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "when autumn winds start howling through the city the streets are covered with a blanket of colorful leaves people dress warmer and walk quickly along the sidewalks caf\u00e9s become refuges where one can enjoy hot drinks and watch the raindrops slowly falling outside the windows while autumns charm sneaks into everyday life",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In the pieceful countryside, an old stone bridge spans a clear stream. It is surrounded by lush greenery and wild flowers blooming despite the cool air. An elderly man fishes silently from the bridge, completely absorbed by the tranquility and beauty of nature, as time slowly flows by in harmony and pieceful atmosphere.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In the peaceful countryside, an old stone bridge spans a clear stream. It is surrounded by lush greenery and wild flowers blooming despite the cool air. An elderly man fishes silent from the bridge, completely absorbed by the tranquility and beauty of nature, as time slow flows by in harmony and peaceful atmosphere.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "in the peaceful countryside an old stone bridge spans a clear stream it is surrounded by lush greenery and wild flowers blooming despite the cool air an elderly man fishes silently from the bridge completely absorbed by the tranquility and beauty of nature as time slowly flows by in harmony and peaceful atmosphere",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In a small forest workshop, a skilled craftman works to create beautiful and durable wooden toys. Each figure is carefully carved and hand-painted, ready to inspire play and creativity in children. The artistic skill of the craft lives on through each unique, meticusly detailed, and lovingly executed work created with care and precision.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In a small forest workshop, a skilled craftsman works to create beautiful and durable wooden toys. Each figure is carefully carved and hand-painted, ready to inspire play and creative in children. The artistic skill of the craft lives on through each unique, meticulously detailed, and loving executed work created with care and precision.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "in a small forest workshop a skilled craftsman works to create beautiful and durable wooden toys each figure is carefully carved and hand-painted ready to inspire play and creativity in children the artistic skill of the craft lives on through each unique meticulously detailed and lovingly executed work created with care and precision",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "Darkness falls early over the city as wintr approaches. Streetlights cast a yellow glow over snow-covered sidewalks. Residents move quickly, wrapped in ticc jackets and scarves, as they hurry home or to cozy gathering spots to escape the cold. Everyone feels that the long-awaited Christmas is nearly here.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "Darkness falls early over the city as winter approaches. Streetlights cast a yellow glow over snow-covered sidewalks. Residents move quickly, wrapping in thick jackets and scarves, as they hurry home or too cozy gathering spots to escape the cold. Everyone feels that the long-awaited Christmas is nearly here.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "darkness falls early over the city as winter approaches streetlights cast a yellow glow over snow-covered sidewalks residents move quickly wrapped in thick jackets and scarves as they hurry home or to cozy gathering spots to escape the cold everyone feels that the long-awaited christmas is nearly here",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "During the sammer, the park transforms into a stage for outdoor theater. Spectators gather on blankets and brought chairs, under a sky that slowly transitions from blue to pink and purple. The actors perform classical works with passion and energy, to the great delight of the audience. An unforgettable wekend for all.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "During the summer, the park transforms into a stage for outdoor theater. Spectator gather on blankets and brought chairs, under a sky that slowly transitioning from blue to pink and purple. The actors perform classical works with passion and energy, to the great delight of the audience. An unforgettable weekend for all.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "during the summer the park transforms into a stage for outdoor theater spectators gather on blankets and brought chairs under a sky that slowly transitions from blue to pink and purple the actors perform classical works with passion and energy to the great delight of the audience an unforgettable weekend for all",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In an old bookstore, where the scent of paper and lether fills the air, one can find literary treasures stacked from floor to ceiling. Each shelf offers stories from difrent times and places, and those who dare to explore can discover works by both well-known and forgotten authors. A large red book stands out.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In a old bookstore, where the scent of paper and leather fills the air, one can find literary treasures stacked from floor to ceiling. Each shelf offers stories from different times and places, and those who dare to explore can discover works by both well-known and forgot authors. A large red book stands out.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "in an old bookstore where the scent of paper and leather fills the air one can find literary treasures stacked from floor to ceiling each shelf offers stories from different times and places and those who dare to explore can discover works by both well-known and forgotten authors a large red book stands out",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "At the market downtown, the atmosphere is lively. Vendors sheout out their offers and display everything from fresh fruits and vegetables to local crafts. Children run back and forth between the staolls, and the smell of freshly cooked food mixes with the sounds of talk and laughter.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "At the market downtown, the atmosphere are lively. Vendors shout out their offers and display everything from fresh fruits and vegetables too local crafts. Children run back and forth between the stalls, and the smell of freshly cooked food mixes with the sounds of talk and laughter.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "at the market downtown the atmosphere is lively vendors shout out their offers and display everything from fresh fruits and vegetables to local crafts children run back and forth between the stalls and the smell of freshly cooked food mixes with the sounds of talk and laughter",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In a quit residential area, neighbors have gathered for an annual street party. Long tables covered with tablecloths and fairy lights stretch along the road. Food is generously shared, and music streams from speakers. A man has become far too drunk and is picked up by the polis.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In a quiet residential area, neighbors have gathered for an annual street party. Long tables covered with tablecloths and fairy lights stretch along the road. Food is generously shared, and music streams from speakers. A man has become far to drunk and are picked up by the police.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "in a quiet residential area neighbors have gathered for an annual street party long tables covered with tablecloths and fairy lights stretch along the road food is generously shared and music streams from speakers a man has become far too drunk and is picked up by the police",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "By the coast, where the sea mits the land, a family walks along the beach at sunset. Waves wash against the shore, and collected treasures like shells and polished stones fill the children's buckets. It would be a perfect end to the day, if it were not for the great shark lurke offshore.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "By the coast, where the sea meets the land, a family walks along the beach at sunset. Waves wash against the shore, and collected treasures like shells and polish stones fill the childrens buckets. It would be a perfect end to the day, if it were not for the great shark lurking offshore.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "by the coast where the sea meets the land a family walks along the beach at sunset waves wash against the shore and collected treasures like shells and polished stones fill the children's buckets it would be a perfect end to the day if it were not for the great shark lurking offshore",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In a small square in the heart of the city stands a statue of the city's founder. Pepol pass by, some stop to take photografs, while others just sit on nearby benches enjoying a break in the city's bustling life. An ice cream truck drives up, and all the children are delighted.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "In an small square in the heart of the city stands a statue of the city's founder. People pass by, some stop to take photograph, while others just sit on nearby benches enjoying a break in the city's bustling life. An ice cream truck drives up, and all the children are delighted.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "in a small square in the heart of the city stands a statue of the city's founder people pass by some stop to take photographs while others just sit on nearby benches enjoying a break in the city's bustling life an ice cream truck drives up and all the children are delighted",
+        "type": "Punctuation",
+        "token_length": 90.0
+    }
+]

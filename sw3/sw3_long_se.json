@@ -1,0 +1,756 @@
+[
+    {
+        "pre_prompt": "Korrigera alla fel i stavning, grammatik och skiljetecken. Alla svar ska vara på svenska. Exempel: <start>jag har vart i tailand istället för att gå i skolan så jag har fått ett vite på tijotusen kronor</start> blir till <start>Jag har varit i Thailand istället för att gå i skolan, så jag har fått ett vite på tiotusen kronor.</start> Ett till exempel: <start>gustav vasa föddes 1496 och er en av sveriges mesta framståed historiske figurer och betracktas som grönden till de moderna svenska köngariket.</start> blir till <start>Gustav Vasa föddes 1496 och är en av Sveriges mest framstående historiska figurer, och betraktas som grunden till det moderna svenska kungariket.</start> Ett till exempel: <start>man börjar alltid med stor bokstav</start> blir till <start>Man börjar alltid med stor bokstav.</start> Ett till exempel: <start>",
+        "post_prompt": "</start> blir till <start>"
+    },
+    {
+        "prompt": "Varje morgon går han till jobet genom den lögna parken.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Varje morgonen går han till jobbet genom den lugna parket.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "varje morgon går han till jobbet genom den lugna parken",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Idag bokade vi flygbiljeter till Italyen för vår nästa semester.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Idag bokad vi flygbiljetter till Italien för vårt nästa semester.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "idag bokade vi flygbiljetter till italien för vår nästa semester",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Hon lärde sig at baka brö från sin väns mormor.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Hon lärt sig att baka bröd från sina väns mormor.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "hon lärde sig att baka bröd från sin väns mormor",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Barnen ser inte fram emot skolans stora vetenskapsmäsa nästa måna.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Barnen se inte fram emot skolans stort vetenskapsmässa nästa månad.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "barnen ser inte fram emot skolans stora vetenskapsmässa nästa månad",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Han spelar fotboll varje lördag me sina vänner och bekantta.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Honom spelar fotboll varje lördag med sitt vänner och bekanta.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "han spelar fotboll varje lördag med sina vänner och bekanta",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "De går på en consärt för att se sitt favoritbannd.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Dem går på en konsert för att se sin favoritband.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "de går på en konsert för att se sitt favoritband",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Smartelefoner har för evigt förändrat hur vi kommunicerar med varan.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Smarttelefoner har för evigt förändrade hur vi kommuniceras med varandra.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "smarttelefoner har för evigt förändrat hur vi kommunicerar med varandra",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Vi måsste skydda våra skogar för att bevara vår plannet.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Vi måste skyddade våra skogar för att bevaras vår planet.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "vi måste skydda våra skogar för att bevara vår planet",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Regelbönden motion är mycket vicktigt för både kropp och sinne.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Regelbunden motion är mycket viktig för båda kropp och sinne.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "regelbunden motion är mycket viktigt för både kropp och sinne",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "De såg en ny spänande film på biågrafen igår kväll.",
+        "type": "Spelling",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "Dem såg ett ny spännande film på biografen igår kväll.",
+        "type": "Grammar",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "de såg en ny spännande film på biografen igår kväll",
+        "type": "Punctuation",
+        "token_length": 15.0
+    },
+    {
+        "prompt": "På sommaren njuter väldigt många mäniskor av att tillbringa tid vid havet och känna havets juva bris mot deras ansikten.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "På sommar njuter väldigt många människor av att tillbringa tid vid havet och känna havets ljuva bris mot deras ansiktet.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "på sommaren njuter väldigt många människor av att tillbringa tid vid havet och känna havets ljuva bris mot deras ansikten",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "När hon öppnade den gamla boken, spred sig en dofft av bortglömd kunskap och spännande äventyr genom det tyssta biblioteket.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "När hon öppnade den gamla böcker, spred sig en doft av bortglömd kunskap och spännande äventyrar genom det tysta biblioteket.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "när hon öppnade den gamla boken spred sig en doft av bortglömd kunskap och spännande äventyr genom det tysta biblioteket",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Efter en lång dagg på jobbet, ser han fram emot att komma hem och spendera werdefull tid med sin familj.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Efter lång en dag på jobbet, ser han fram emot att komma hemma och spendera värdefull tid med sin familj.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "efter en lång dag på jobbet ser han fram emot att komma hem och spendera värdefull tid med sin familj",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Under våren vaknar natturenn till liv igen med färgglada blommorr, grönt gräs och fåglarnas glada sång i de ljusa morgnarna.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Under våren vaknar naturen till livet igen med färgglada blommor, grönt gräs och fåglarnas glada sången i de ljusa morgnarna.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "under våren vaknar naturen till liv igen med färgglada blommor grönt gräs och fåglarnas glada sång i de ljusa morgnarna",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Hon hade alltid drömt om att resa jorden runnt och uppleva olika fremmande kulturer, nya maträtter och spännande historiska platser.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Henne hade alltid drömt om att resa jorden runt och uppleva olika främmande kulturer, nya maträtterna och spännande historiska platser.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "hon hade alltid drömt om att resa jorden runt och uppleva olika främmande kulturer nya maträtter och spännande historiska platser",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Varje söndag går de till den lokala marknaden för att köpa ferska grönsaker, frukt och andra närproducerade varår till middagen.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Varje söndag går dem till den lokala marknaden för att köpa färska grönsaker, frukt och andra närproducerar varor till middagen.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "varje söndag går de till den lokala marknaden för att köpa färska grönsaker frukt och andra närproducerade varor till middagen",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Trots det kala vädret, bestämde de sig för att göra en lång vandring uprp på det höga berget nära staden.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Trots det kalla vädret, bestämde dem sig för att göra en långa vandring upp på det höga berget nära staden.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "trots det kalla vädret bestämde de sig för att göra en lång vandring upp på det höga berget nära staden",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Under lekjonen diskuterade läraren vikten av att fursto historiska händelser för att lära sig av vad som har hänt tidigare.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Under lektionen diskuterades läraren vikt av att förstå historiska händelser för att lära sig av vad som har hänt tidigare.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "under lektionen diskuterade läraren vikten av att förstå historiska händelser för att lära sig av vad som har hänt tidigare",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "I tjöket dansade dofterna av nybakat bröd och nybryggt kaffe, vilket skapade en mycket varm och velkomande atmosfär i huset.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "I köket dansade doftande av nybakat bröd och nybryggt kaffe, vilket skapade en mycket varmast och välkomnande atmosfär i huset.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "i köket dansade dofterna av nybakat bröd och nybryggt kaffe vilket skapade en mycket varm och välkomnande atmosfär i huset",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Han läste sin nya bok så intensivet att han inte märkte hur timmarnarna gick och helt plötsligt var det midnatt.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Han läste sina nya bok så intensivt att han inte märkte hur timmarna gå och helt plötsligt var det midnatt.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "han läste sin nya bok så intensivt att han inte märkte hur timmarna gick och helt plötsligt var det midnatt",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "På den mest vindia dagen gick hon genom parken och såg hur löven vivrlade i den starka vinden. Varje steg hon tog ekade av ensamhet och längtan efter varmare dagar.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "På den mest vindig dagen gått hon genom parken och såg hur löven virvlade i den starka vinden. Varje steg hon tog ekade av ensamhet och längtan efter varmare dagar.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "på den mest vindiga dagen gick hon genom parken och såg hur löven virvlade i den starka vinden varje steg hon tog ekade av ensamhet och längtan efter varmare dagar",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Han pakkade sin ryggsäck med stor omsorg, placerade kameran, vattenflaskan och en bok i sidofacket. Idag skulle han bestiga berget och föreviga utsikten från toppen. Det kommer att bli legendaryskt.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Han packade sina ryggsäck med stor omsorg, placerade kameran, vattenflaskan och en bok i sidofacket. Idag skulle han bestiga berget och föreviga utsikten i toppen. Det kommer att bli legendariskt.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "han packade sin ryggsäck med stor omsorg placerade kameran vattenflaskan och en bok i sidofacket idag skulle han bestiga berget och föreviga utsikten från toppen det kommer att bli legendariskt",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Vid havets kant stod ett gammalt hus, dess fönster speglade solnegången. Familjen som en gång bott där hade lämnat många historier och minnen bakom sig. På gården stod en flaggastång.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Vid havets kant stod en gammal hus, dess fönster speglade solnedgången. Familjen som en gång bott där hade lämnat många historier och minnen bakom sig. På gården stod en flaggstång.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "vid havets kant stod ett gammalt hus dess fönster speglade solnedgången familjen som en gång bott där hade lämnat många historier och minnen bakom sig på gården stod en flaggstång",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "I staden där nätterna aldrig var mörkra, vandrade en katt ensam på de glittrande trottoarerna. Varje hörn och gränd berättade en egen, hemligggg historia. Katten sökte efter en varm tillflykt.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "I staden där nätterna aldrig var mörka, vandrade en katt ensamma på de glittrar trottoarerna. Varje hörn och gränd berättade en egen, hemlig historia. Katten sökte efter en varm tillflykt.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "i staden där nätterna aldrig var mörka vandrade en katt ensam på de glittrande trottoarerna varje hörn och gränd berättade en egen hemlig historia katten sökte efter en varm tillflykt",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Månen lyste klart över feltett där barnen tidigare hade spelat. Gräset böjde sig lätt under den milda nattbrisen, som om det visckade om gångnga sommardagar. Plötsligt hördes ett högt ljud.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Månen lysa klart över fältet där barnen tidigare hade spelat. Gräset böjde sig lätt under den milda nattbrisen, som om det viskade om gångna sommardagen. Plötsligt hördes ett högt ljud.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "månen lyste klart över fältet där barnen tidigare hade spelat gräset böjde sig lätt under den milda nattbrisen som om det viskade om gångna sommardagar plötsligt hördes ett högt ljud",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Biblioteket var tyst förutom det mjuka prassslet av sidor som vändes. Varje bok hyllade en ny värld, redo att utforskas av nästa nyfikna besökare. Men warje år kom det färre.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Biblioteket var tysta förutom det mjuka prasslet av sidor som vändes. Varje böcker hyllade en ny värld, redo att utforskas av nästa nyfikna besökare. Men varje år kom det färre.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "biblioteket var tyst förutom det mjuka prasslet av sidor som vändes varje bok hyllade en ny värld redo att utforskas av nästa nyfikna besökare men varje år kom det färre",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Han stod vid järnvägsstationen, väntande på det tåg som skulle ta honom tillbaka till barndomstaden. Hans hjärta slog i takt med klockans tickande. I bakgruden hördes alla hans blivande medpassagerare.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Han stå vid järnvägsstationen, väntande på det tåg som skulle ta honom tillbaka till barndomsstaden. Hans hjärta slog i takt med klockans tickar. I bakgrunden hördes alla hans blivande medpassagerare.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "han stod vid järnvägsstationen väntande på det tåg som skulle ta honom tillbaka till barndomsstaden hans hjärta slog i takt med klockans tickande i bakgrunden hördes alla hans blivande medpassagerare",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Under blå himel samlades alla i byn för att tillsammans fira midsomar. Sånger sjöngs och skratt delades, och gemenskapen var starkare än någonsin. När midsommarstången var klädd påbörjades äntligen dansen.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Under blå himmel samlades alla på byn för att tillsammans fira midsommar. Sånger sjöngs och skratt delades, och gemenskapen var stark än någonsin. När midsommarstången var klädd påbörjades äntligen dansen.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "under blå himmel samlades alla i byn för att tillsammans fira midsommar sånger sjöngs och skratt delades och gemenskapen var starkare än någonsin när midsommarstången var klädd påbörjades äntligen dansen",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Hon bläddrade genom sitt gamla fotoallbum och mindes vänner hon inte settt på år. Varje bild var som ett fönster till en svunnen tid, en portal till det som var.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Hon bläddrade genom sitt gammal fotoalbum och mindes vänner hon inte se på år. Varje bild var som ett fönster till en svunnen tid, en portal till det som var.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "hon bläddrade genom sitt gamla fotoalbum och mindes vänner hon inte sett på år varje bild var som ett fönster till en svunnen tid en portal till det som var",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Medan solen sackgta sjönk bakom horisonten, förberedde han kvällens middag. Dofterna av timjan och rosmarin fyllde köket, och alla i huset kände h ungern komma. Det var hans paradrätt som lagades.",
+        "type": "Spelling",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Medan solen sakta sjönk bakom horisonten, förberedde han kvällens middag. Dofterna av timjan och rosmarin fyllde köket, och alla i huset kände hungern kom. Det var hans paradrätt som lagat.",
+        "type": "Grammar",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "medan solen sakta sjönk bakom horisonten förberedde han kvällens middag dofterna av timjan och rosmarin fyllde köket och alla i huset kände hungern komma det var hans paradrätt som lagades",
+        "type": "Punctuation",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Solen skiner klart över den lilla staden där mennisskor promenerar lugnt på gatorna. Barn skrattar och spelar i parken, och en lät bris får träden att viska. En man spelar dragspel glatt. Livet känns enkelt här, bortom stadens hektiska tempo.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Solen skina klart över den lilla staden där människor promenerar lugnt på gatorna. Barn skrattande och spelar i parken, och en lätt bris får träden att viska. En man spelar dragspel glatt. Livet känns enkelt här, bortom stadens hektiska tempo.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "solen skiner klart över den lilla staden där människor promenerar lugnt på gatorna barn skrattar och spelar i parken och en lätt bris får träden att viska en man spelar dragspel glatt livet känns enkelt här bortom stadens hektiska tempo",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "I köket doftar det av nybakat bröd. Morrmorr har varit uppe tidigt och förberett allt för familjens söndagsfrukost. Bordet är dukat med hemlagade sylter, smör och färskpressad jus. En känsla av värme sprider sig i rummet, och det doftar ljuvligt.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "I köket doftar det av nybakat bröd. Mormor har varit uppe tidigt och förbereda allt för familjens söndagsfrukost. Bordet är dukat med hemlagade sylter, smör och färskpressa juice. En känsla av värme sprider sig i rummet, och det doftar ljuvligt.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "i köket doftar det av nybakat bröd mormor har varit uppe tidigt och förberett allt för familjens söndagsfrukost bordet är dukat med hemlagade sylter smör och färskpressad juice en känsla av värme sprider sig i rummet och det doftar ljuvligt",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Den gamla boken ligger öppen på bordet framför eldstaden. Sidorna har gulnat med tiden, och texten berättar om äventyr i främande länder. Läsaren dras in i en värld av mystik och upptäckt, omgiven av knastrande eld. Bibliotekarien är spårlöst försvönnen.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Den gamla boken ligger öppen på bordet framför eldstaden. Sidorna har gulnat med tiden, och texten berättande om äventyr i främmande länder. Läsaren dra in i en värld av mystik och upptäckt, omgiven av knastrande eld. Bibliotekarien är spårlöst försvunnen.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "den gamla boken ligger öppen på bordet framför eldstaden sidorna har gulnat med tiden och texten berättar om äventyr i främmande länder läsaren dras in i en värld av mystik och upptäckt omgiven av knastrande eld bibliotekarien är spårlöst försvunnen",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Morgondimman ligger tät över ängen när vandraren börjar sin dag. Stigen är blöt och lerig, men utsikten är ändlöst vacker. Fåglar kvittrar, och naturen vaknar långsamt til liv. Wandraren packar ihop sina saker, och börjar sin färd mot nästa äventyr.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Morgondimman liggande tät över ängen när vandraren börjar sin dag. Stigen är blöt och lerig, men utsikten är ändlöst vacker. Fåglar kvittrande, och naturen vaknar långsamt till liv. Vandraren packar ihop sina saker, och börjar sin färd mot nästa äventyr.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "morgondimman ligger tät över ängen när vandraren börjar sin dag stigen är blöt och lerig men utsikten är ändlöst vacker fåglar kvittrar och naturen vaknar långsamt till liv vandraren packar ihop sina saker och börjar sin färd mot nästa äventyr",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Staden vaknar till liv under de tidiga morgontimmarna. Gatufurseljare ställer upp sina stånd, och doften av färskt kaffe sprider sig genom luften. Folk skyndar till sina jobb, medan morgonljuset kastar långa skuggor över trottoarerna. Snart är dagen äntligen här ijen.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Staden vaknar till liv under de tidiga morgontimmarna. Gatuförsäljare ställa upp sina stånd, och doften av färskt kaffe spridande sig genom luften. Folk skyndar till sina jobb, medan morgonljuset kastar långa skuggor över trottoarerna. Snart är dagen äntligen här igen.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "staden vaknar till liv under de tidiga morgontimmarna gatuförsäljare ställer upp sina stånd och doften av färskt kaffe sprider sig genom luften folk skyndar till sina jobb medan morgonljuset kastar långa skuggor över trottoarerna snart är dagen äntligen här igen",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Vid havet står en gammal fyr som har sett otaliga stormar komma och gå. Stora vågor bryter krafftfullt mot klipporna, och skummet flyger genom luften. Fyren står stadig, en pålitli vägvisare genom århundradena. Här har många fartyg passerat genom tiderna.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Vid havet står en gammal fyr som har såg otaliga stormar komma och gå. Stora vågor bryter kraftfullt mot klipporna, och skummet flyger genom luften. Fyren står stadig, en pålitlig vägvisare genom århundradena. Här har många fartyg passeras genom tiderna.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "vid havet står en gammal fyr som har sett otaliga stormar komma och gå stora vågor bryter kraftfullt mot klipporna och skummet flyger genom luften fyren står stadig en pålitlig vägvisare genom århundradena här har många fartyg passerat genom tiderna",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "I bibliotekets tysta vrår kan man höra sidor som vänndds och viskande samtal. Studenter lutar sig över sina böcker, sökande efter kunskap. Väggarna är täckta av böcker från gollv till tak, varje rygg berättandes en ny historia. Taket är högt.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "I bibliotekets tysta vrår kan man höra sidor som vända och viskar samtal. Studenter lutar sig över sina böcker, sökande efter kunskap. Väggarna är täckta av böcker från golv till tak, varje rygg berättandes en ny historia. Taket är högt.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "i bibliotekets tysta vrår kan man höra sidor som vänds och viskande samtal studenter lutar sig över sina böcker sökande efter kunskap väggarna är täckta av böcker från golv till tak varje rygg berättandes en ny historia taket är högt",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Under stjärnklar himmel samlas familien runt lägerelden. De lyssnar till farfars berättelser om hans ungdomsäventyr. Elden sprakar och skapar en magisq atmosfär där gamla minnen blir levande igen. Han berättar om sina dagar i Egyptens öken, när han var arkeolog.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Under stjärnklar himmel samlas familjen runt lägerelden. De lyssnar till farfars berättelser om hans ungdomsäventyr. Elden sprakande och skapar en magisk atmosfär där gamla minnen blir levande igen. Han berättar om sina dagarna i Egyptens öken, när han var arkeolog.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "under stjärnklar himmel samlas familjen runt lägerelden de lyssnar till farfars berättelser om hans ungdomsäventyr elden sprakar och skapar en magisk atmosfär där gamla minnen blir levande igen han berättar om sina dagar i egyptens öken när han var arkeolog",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "På torjet samlas människor för att fira stadens årliga festival. Musiken börjar eka mellan housen, och dansare klädda i färgglada dräkter snurrar runt. Glädjen är påtaglig, och alla är välkomna att delta i festligheterna. I år har staden verkligen lyckats.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "På torget samlas människor för att firande stadens årliga festival. Musiken börja eka mellan husen, och dansare klädda i färgglada dräkter snurrar runt. Glädjen är påtaglig, och alla är välkomna att delta i festligheterna. I år har staden verkligen lyckats.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "på torget samlas människor för att fira stadens årliga festival musiken börjar eka mellan husen och dansare klädda i färgglada dräkter snurrar runt glädjen är påtaglig och alla är välkomna att delta i festligheterna i år har staden verkligen lyckats",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Höstens frösta fröst har lagt sig över landskapet, och löven har bytt färg till guld och rött. En stillhet råder i luften, som om naturen själv håller andan. Det är en tid för reflektion och förberedelse inför den kommande vintern.",
+        "type": "Spelling",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Höstens första frost har lagt sig över landskapet, och löven har byta färg till guld och rött. En stillhet råder i luften, som om naturen själv hålla andan. Det är en tid för reflektion och förberedelse inför den kommande vintern.",
+        "type": "Grammar",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "höstens första frost har lagt sig över landskapet och löven har bytt färg till guld och rött en stillhet råder i luften som om naturen själv håller andan det är en tid för reflektion och förberedelse inför den kommande vintern",
+        "type": "Punctuation",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "När höstvindarna börjar vina genom staden, täks gatorna av ett täcke av färgglada löv. Människor klär sig varmare och promenerar snabbt längs trottoarerna. Kaféerna blir tillflyktsorter där man kan njuta av varma drycker och titta på regndroparna som sakta faller utanför fönstren, medan höstens charm smyger sig in i vardagen.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "När höstvindarna börjar vina genom staden, täcks gatorna av en täcke av färgglada löv. Människor klär sig varmare och promenerar snabbt längs trottoarerna. Kaféerna blir tillflyktsorter man där kan njuta av varma drycker och titta på regndropparna som sakta faller utanför fönstren, medan höstens charm smyger sig in i vardagen.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "när höstvindarna börjar vina genom staden täcks gatorna av ett täcke av färgglada löv människor klär sig varmare och promenerar snabbt längs trottoarerna kaféerna blir tillflyktsorter där man kan njuta av varma drycker och titta på regndropparna som sakta faller utanför fönstren medan höstens charm smyger sig in i vardagen",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "På den lugna landsbygden står en gamal stenbro över en klar bäck. Den omges av frodig grönska och vilda blommor som blomstrar trots den svala luften. En äldre man fiskar tyst från bron, helt uppslukad av naturens stillhet och sjönhet, medan tiden sakta flyter förbi i harmoni och lugn atmosfär.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "På den lugna landsbygden står ett gammal stenbro över en klar bäck. Den omges av frodig grönska och vilda blommor som blomstrar trots den svala luften. En man äldre fiskar tyst från bron, helt uppslukad av naturens stillhet och skönhet, medan tiden sakta flyter förbi i harmoni och lugn atmosfär.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "på den lugna landsbygden står en gammal stenbro över en klar bäck den omges av frodig grönska och vilda blommor som blomstrar trots den svala luften en äldre man fiskar tyst från bron helt uppslukad av naturens stillhet och skönhet medan tiden sakta flyter förbi i harmoni och lugn atmosfär",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "I en liten tät skogsverkstad, arbetar en sjicklig hantverkare med att skapa vackra och hållbara träleksaker. Varje figur är omsorgsfult snidad och handmålad, redo att väcka lek och kreativitet hos barn. Hantverkets konstnärliga skicklighet lever vidare genom varje unikt detaljerat och kärleksfullt utfört arbete som skapas med omsorg och precision.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "I ett liten tät skogsverkstad, arbetar en hantverkare skicklig med att skapa vackra och hållbara träleksaker. Varje figur är omsorgsfullt snidad och handmålad, redo att väcka lek och kreativitet hos barn. Hantverkets konstnärliga skicklighet lever vidare genom varje unikt detaljerat och kärleksfullt utfört arbete som skapas med omsorg och precision.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "i en liten tät skogsverkstad arbetar en skicklig hantverkare med att skapa vackra och hållbara träleksaker varje figur är omsorgsfullt snidad och handmålad redo att väcka lek och kreativitet hos barn hantverkets konstnärliga skicklighet lever vidare genom varje unikt detaljerat och kärleksfullt utfört arbete som skapas med omsorg och precision",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "Mörkret sänker sig tidigt över staden när vintern närmar sig. Gatlyktor kastar ett gult sken över snötäkta trottoarer. Invånarna rör sig snabbt, inlindade i tjocka jackor och halsduckar, medan de skyndar sig hemåt eller till mysiga samlingsplatser för att undkomma kylan. Alla känner att den efterlängtade julen snart är här.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "Mörkret sänker sig tidigt över staden när vintern närmar sig. Gatlyktor kastar ett gult sken över trottoarer snötäckta. Invånarna rör sig snabbt, inlindade i tjocka jackor och halsdukar, medan de skyndar sig hemåt eller till mysiga samlingsplatser för att undkomma kylan. Känner alla att den efterlängtade julen snart är här.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "mörkret sänker sig tidigt över staden när vintern närmar sig gatlyktor kastar ett gult sken över snötäckta trottoarer invånarna rör sig snabbt inlindade i tjocka jackor och halsdukar medan de skyndar sig hemåt eller till mysiga samlingsplatser för att undkomma kylan alla känner att den efterlängtade julen snart är här",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "Under sommaren förvandlas parken till en scen för utomhusteater. Åskådarna samlas på filltar och medtagna stolar, under en himmel som långsamt övergår från blått till rosa och lila. Skådespelarna framför klassiska verk med pasion och energi, till publikens stora förtjusning. En helt oförglömlig helg för alla, speciellt för dom unga.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "Under sommaren förvandlas parken till en scen för utomhusteater. Åskådarna samlas på filtar medtagna stolar, under en himmel som långsamt övergår från blått till rosa och lila. Skådespelarna framför klassiska verk med passion och energi, till publikens stora förtjusning. Ett helt oförglömlig helg för alla, speciellt för dom unga.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "under sommaren förvandlas parken till en scen för utomhusteater åskådarna samlas på filtar och medtagna stolar under en himmel som långsamt övergår från blått till rosa och lila skådespelarna framför klassiska verk med passion och energi till publikens stora förtjusning en helt oförglömlig helg för alla speciellt för dom unga",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "I en gamal bokhandel, där doften av papper och läder fyller luften, kan man hitta litterära skater staplade från golv till tak. Varje hylla erbjuder historier från olika tider och platser, och den som vågar utforska kan upptäcka både kända och glömda författares verk. En stor röd bok sticker ut.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "I en gammalt bokhandel, där doften av papper och läder fyller luften, kan man hitta litterära skatter staplade från golv till tak. Varje hylla erbjuder historier från olika tider och platser, och den som vågar utforska kan upptäcka både kända och glömda författares verk. En stora röd bok sticker ut.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "i en gammal bokhandel där doften av papper och läder fyller luften, kan man hitta litterära skatter staplade från golv till tak varje hylla erbjuder historier från olika tider och platser och den som vågar utforska kan upptäcka både kända och glömda författares verk en stor röd bok sticker ut",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "På marknaden i centrum är stemningen livlig. Försäljare ropar ut sina erbjudanden och visar upp allt från fershk frukt och grönsaker till lokalt hantverk. Barn springer fram och tillbaka mellan stånden, och doften av nylagad mat blandas med ljudet av prat och skratt. Plötsligt händer det som inte fick hända.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "På marknaden i centrum är stämningen livlig. Försäljare ropar ut sina erbjudanden och visar upp allt från färsk frukt och grönsaker till lokalt hantverk. Barn springer fram och tillbaka mellan stånden, och doften av nylagad mat blandas med ljudet av prata och skratta. Plötsligt händer det som inte fick hända.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "på marknaden i centrum är stämningen livlig försäljare ropar ut sina erbjudanden och visar upp allt från färsk frukt och grönsaker till lokalt hantverk barn springer fram och tillbaka mellan stånden och doften av nylagad mat blandas med ljudet av prat och skratt plötsligt händer det som inte fick hända",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "I ett lugnt bostadsområde har grannarna samlats för en årlig gatufest. Långbord täckta med dukar och ljusshlingor sträcker sig längs vägen. Mat delas generöst ut och musik strömmar från högtalare, skapande en känsla av yemenskap och festlighet. En man har druckit sig alldeles för full och blir hämtad av polisen.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "I ett lugnt bostadsområde har grannarna samlats för en årlig gatufest. Långbord täckta med dukarnas och ljusslingor sträcker sig längs vägen. Mat delas generöst ut och musik strömmar från högtalare, skapande en känsla på gemenskap och festlighet. En man har druckit sig alldeles för full och blir hämtad av polisen.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "i ett lugnt bostadsområde har grannarna samlats för en årlig gatufest långbord täckta med dukar och ljusslingor sträcker sig längs vägen mat delas generöst ut och musik strömmar från högtalare skapande en känsla av gemenskap och festlighet en man har druckit sig alldeles för full och blir hämtad av polisen",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "Vid kusten, där havet möter land, vandrar en familj längs stranden i solnegången. Vågorna sköljer mot stranden, och samlade skatter som snäckor och polerade stenar fyller barnens små hingkar. Det vore en perfekt avslutning på en dag fylld av sol och lek, om det inte vore för jättehajen där utanför.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "Vid kusten, där havet möter land, vandrande en familj längs stranden i solnedgången. Vågorna skölja mot stranden, och samlade skatter som snäckor och polerade stenar fyller barnens små hinkar. Det vore en perfekt avslutning på en dag fylld av sol och lek, om det inte vore för jättehajen där utanför.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "vid kusten där havet möter land, vandrar en familj längs stranden i solnedgången vågorna sköljer mot stranden och samlade skatter som snäckor och polerade stenar fyller barnens små hinkar det vore en perfekt avslutning på en dag fylld av sol och lek om det inte vore för jättehajen där utanför",
+        "type": "Punctuation",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "På ett litet torg i stadens hjärta står en staty av stadens gröndare, omgiven av blommande rabatter. Människor passerar, några stannar för att fotografera, medan andra bara sitter på närliggande bänkar och njuter av en stunds paus i stadens pulserande liv. En glasbil kommer körandes och alla barn blir glada.",
+        "type": "Spelling",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "På ett litet torg i stadens hjärta står en staty av stadens grundare, omgiven av blommande rabatter. Människor passerar, några stannar för att fotografera, medan andra bara sitter på närliggande bänkar och njuter av en stunds pausa i stadens pulserar liv. En glassbil kommer körandes och alla barn blir glada.",
+        "type": "Grammar",
+        "token_length": 90.0
+    },
+    {
+        "prompt": "på ett litet torg i stadens hjärta står en staty av stadens grundare omgiven av blommande rabatter människor passerar några stannar för att fotografera medan andra bara sitter på närliggande bänkar och njuter av en stunds paus i stadens pulserande liv en glassbil kommer körandes och alla barn blir glada",
+        "type": "Punctuation",
+        "token_length": 90.0
+    }
+]

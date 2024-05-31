@@ -1,0 +1,256 @@
+[
+    {
+        "pre_prompt": "Take the given text and make it more simplistic, using easy to understand language. Example: <start>It is imperative that we examine and improve our operational processes to enhance our efficiency. Furthermore, this must be documented in accordance with our established protocols and regulations.</start> becomes <start>We gotta make sure our ways of doing things are improved so we can work better. It's important to write this down correctly, like our rules say.</start> Example: <start>In order to maintain the high standard of our services, it is required that all parties involved engage in regular quality assessments, as stipulated by our governing authorities.</start> becomes <start>To keep our services really good, everyone needs to check how good they are often, just like the people in charge want.</start> Example: <start>",
+        "post_prompt": "'</start> becomes <start> "
+    },
+    {
+        "prompt": "I would like to arrange a discussion tomorrow to review our project progress.",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Kindly ensure your expense reports are submitted before the close of business today.",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "We have a workshop scheduled for next week. Could you please confirm your availability?",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Your input is needed for the marketing campaign by the end of this week.",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Please ensure that your task progress is updated in the project tracker. Your cooperation is appreciated.",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "I have attached an important document. Your feedback would be greatly valued.",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Just a gentle reminder: Kindly complete the training module by Friday.",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Would it be possible to discuss client feedback this afternoon?",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "We require an update on conference logistics. Could you please review and provide your input?",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },
+    {
+        "prompt": "Let's arrange a call at your earliest convenience to discuss the project. When would you be available?",
+        "type": "Simple Persona",
+        "token_length": 20.0
+    },    
+    {
+        "prompt": "I am confirming the meeting time for tomorrow. Let's schedule it for 10 AM. Does this time work for everyone?",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "An urgent request from a client: We need your input on the project status by the end of today.",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "A friendly reminder: The quarterly report is due next week. Let's ensure all data is accurate and up-to-date.",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "We require revisions to the proposal. Kindly review and incorporate client feedback before sending the final version.",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Please note: A team training session is scheduled for Thursday. Please block your calendars accordingly.",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Attention: The budget review meeting is scheduled for Friday. Please prepare any necessary documentation beforehand.",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "A quick favor to ask: Could you please send over the latest sales figures for our presentation? Thank you in advance!",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Important update: The client meeting has been rescheduled to accommodate their availability. Please confirm the new time slot.",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Just a friendly reminder: Please ensure you complete your performance self-assessment by the end of the week. Your input is valuable.",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "Attention: Equipment maintenance is scheduled for Friday. Please ensure all necessary arrangements are made beforehand.",
+        "type": "Simple Persona",
+        "token_length": 30.0
+    },
+    {
+        "prompt": "An urgent notice: Server maintenance is scheduled tonight from 10 PM to 2 AM. Please ensure all critical tasks are saved and closed before this time to avoid disruption.",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "A reminder: The project kickoff meeting is tomorrow at 9:30 AM. Agenda and location details are attached. Let's start strong!",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Quarterly performance reviews are approaching. Please schedule your one-on-one sessions with me at your earliest convenience.",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "A reminder: There will be an HR policy updates webinar this Friday at 3 PM. Attendance is mandatory for all staff. The Zoom link will be provided.",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "A client feedback survey has been launched. Please encourage participation among your contacts. Valuable insights will help us improve our services.",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "A team-building event is scheduled for next Saturday. RSVP is required by Wednesday for catering arrangements. Let's bond outside the office!",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Update: The marketing campaign launch is delayed. We need additional time for fine-tuning. The new launch date will be announced soon. Stay tuned for updates.",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "An emergency drill is scheduled for tomorrow at 11 AM. Please review emergency procedures beforehand. Safety is our top priority!",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "An announcement: The annual company picnic will be held this Sunday. Don't forget to sign up for the volleyball tournament. Prizes await the winning team!",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "A town hall meeting is scheduled for next week to address recent organizational changes. Your questions and feedback are crucial. Let's keep communication open and transparent.",
+        "type": "Simple Persona",
+        "token_length": 40.0
+    },
+    {
+        "prompt": "Attention everyone: Due to unexpected issues, the office will be closed tomorrow. Please work from home. Check your emails for updates and instructions on accessing important resources.",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Important update: Our website will be under maintenance tonight from 10 PM to 2 AM. There might be temporary interruptions. We apologize and thank you for your patience.",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Reminder: Health and safety training is tomorrow at 9 AM in the conference room. All staff must attend for a safe workplace.",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "We need volunteers for the charity drive next month. Sign up by the end of the week if interested. Let's make a positive impact in our community.",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "The finance department meeting is rescheduled to Thursday at 2 PM. Sorry for any inconvenience. Your presence is valued.",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Update on the company retreat: It's now from Friday to Sunday instead of Thursday to Saturday. Please update your calendars.",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Attention marketing team: Deadline for campaign proposals extended to next Friday. Use this time to make your ideas shine.",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Emergency preparedness drill postponed. We're reviewing protocols for safety. Thank you for understanding.",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Reminder: Tomorrow is Bring Your Child to Work Day. Let's inspire the next generation together.",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Calling all creative minds: Design competition for our new logo. Submissions due end of the month. Show your talent!",
+        "type": "Simple Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Due to bad weather, the office is closed tomorrow. Work remotely, make sure you can access what you need, and keep in touch with your team about projects. Stay safe and keep working!",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Our financial report presentation moved to next Wednesday at 2 PM. This lets us do more analysis for accurate projections. Your input is important for our success.",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Monthly strategy meeting for department heads is next Monday at 10 AM. Be ready to talk about your department's goals, challenges, and plans. Teamwork helps us reach our goals!",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Security breach in our network! IT's working on it. Avoid sensitive info and report anything suspicious. Thanks for being vigilant.",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Wellness challenge starts next week! Join in, track your progress, and compete for prizes. Let's stay healthy together!",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Office renovations start next Monday, may last six weeks. Some areas might be off-limits, and there could be noise. Thanks for your patience!",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Sales meeting moved to next Thursday at 3 PM. Review sales figures and come ready to talk about boosting revenue and making customers happier.",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Performance evaluations due by end of month. Reflect on what you've done, where you can grow, and your career goals. Your input matters!",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Benefits enrollment deadline extended to Friday. Questions? Need help? Talk to HR. Your well-being is important!",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    },
+    {
+        "prompt": "Annual company picnic this Saturday! Food, games, and team-building. Bring your family! RSVP by Wednesday so we have enough for everyone. Let's have fun!",
+        "type": "Simple Persona",
+        "token_length": 60.0
+    }
+]

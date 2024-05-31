@@ -1,0 +1,256 @@
+[
+    {
+        "pre_prompt": "Translate the following text from English to Swedish. Example: <message>We've sent a request of information according to the rules.</message> translates to <message>Vi har skickat en begäran om information enligt reglerna.</message> Example: <message>We'd like to hear your opinion to help our evaluation.</message> translates to <message>Vi vill höra din åsikt för att hjälpa vår utvärdering.</start>  Example: <message>",
+        "post_prompt": "'</message> translates to <message> "
+    },
+    {
+        "prompt": "Each morning he walks to his workplace through the park.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "Today we booked our flight tickets for our next holiday.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "She learnt to bake good bread from her friend's grandmother.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "The children don't look forward to the upcoming science fair.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "He's playing football each saturday with his friends and acquaintances.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "They're going to the concert to see their favorite band.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "Smartphones have forever changed how we communicate with each other.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "We have to protect our forests to preserve our planet.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "Regular exercise is very important for both body and spirit.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "They saw a new exciting movie at the cinema yesterday.",
+        "type": "Translation EN to SE",
+        "token_length": 25.0
+    },
+    {
+        "prompt": "In the summer many people enjoy spending time at the sea and feeling the lovely ocean breeze against their faces.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "When she opened the old book, a scent of forgotten knowledge and exciting adventures spread through the large, silent library.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "After a long day at work, he's looking forward to coming home and spending some valuable time with his family.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "During the spring, nature awakens again with colorful flowers, green grass and the birds' happy songs in the bright mornings.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "She always dreamt of traveling the earth and experiencing different foreign cultures, new foods, strange music, and exciting historical places.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "Every Sunday, they walk to the local farmers' market to buy vegetables, fruit, and other locally produced products for dinner.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "Despite the cold weather, they decided to make the trip to the top of the mountain close to the city.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "During the lesson, the teacher discussed the importance of understanding historical events to learn from the past.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "In the kitchen, scents of newly baked bread and freshly brewed coffee danced around, creating a warm and cozy atmosphere.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "He read his new book so intensely that he didn't notice the passing of time, and suddenly it was midnight.",
+        "type": "Translation EN to SE",
+        "token_length": 35.0
+    },
+    {
+        "prompt": "On the windiest day, she walked through the park and saw the leaves blowing in the wind. Every step she took echoed with loneliness and a longing for warmer days.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "He packed his bag with great care, placing the camera and a water bottle in the side pocket. Today, he would be climbing the mountain and capturing its great view.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "At the edge of the ocean, an old house stood still, its windows reflecting the sunset. The family who once lived there had left many stories and old memories behind.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "In the city, where the nights are never dark, a cat was wandering alone on the glittering sidewalk. Every corner and alley tells its own story. The cat was searching.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "The moon lit the field where the children had been playing. The grass bent under the light breeze, as if whispering of summer days passed. Suddenly, a sound was heard.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "The library was quiet except for the soft rustling of pages being turned. Each book shelved a new world, ready to be explored by the next curious visitor.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "He stood at the railway station, waiting for the train that would take him back to his childhood town. His heart beat in time with the ticking of the clock.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "Under a blue sky, everyone in the village gathered to celebrate Midsummer together. Songs were sung and laughter shared, and the sense of community was stronger than ever.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "She flipped through her old photo album and remembered friends she had not seen in years. Each picture was like a window to a bygone time, a portal to what was.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "As the sun slowly set behind the horizon, he prepared the evening's dinner. The scents of thyme and rosemary filled the kitchen, and everyone in the house felt the hunger coming.",
+        "type": "Translation EN to SE",
+        "token_length": 45.0
+    },
+    {
+        "prompt": "The kitchen smells of freshly baked bread. Grandma has been up early, preparing everything for the family's Sunday breakfast. The table is set with homemade jams, butter, and freshly squeezed juice. A feeling of warmth spreads in the room, and it smells delightful.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "The old book lies open on the table in front of the fireplace. The pages have yellowed over time, and the text tells of adventures in foreign lands. The reader is drawn into a world of mystery and discovery, surrounded by the fire.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "The path is wet and muddy, but the view is endlessly beautiful. Birds chirp, and nature slowly awakens to life. The hiker packs up his things and begins his journey toward the next adventure. The day was good.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "The city comes to life during the early morning hours. Street vendors set up their stands, and the smell of fresh coffee spreads through the air. People hurry to their jobs, while the morning light casts long shadows over the sidewalks.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "By the sea stands an old lighthouse that has witnessed countless storms come and go. Large waves break powerfully against the cliffs, and foam flies through the air. The lighthouse stands firm, a reliable guide through the centuries.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "In the quiet corners of the library, one can hear pages turning and whispered conversations. Students lean over their books, searching for knowledge. The walls are covered with books from floor to ceiling, each spine telling a new story. The ceiling is high.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "Under a starlit sky, the family gathers around the campfire. They listen to grandfather's stories of his youthful adventures. The fire crackles and creates a magical atmosphere where old memories come alive again. He talks about his days in the deserts of Egypt.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "In the square, people gather to celebrate the city's annual festival. The music begins to echo between the buildings, and dancers dressed in colorful costumes spin around. The joy is palpable, and everyone is welcome to join in the festivities.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "The first frost of autumn has settled over the landscape, and the leaves have changed to gold and red. There is a stillness in the air. It is a time for reflection and preparation for the upcoming winter.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "The sun shines brightly over the small town where people walk calmly on the streets. Children laugh and play in the park, and a gentle breeze makes the trees whisper. A man plays the accordion joyfully. Life feels simple here.",
+        "type": "Translation EN to SE",
+        "token_length": 55.0
+    },
+    {
+        "prompt": "When autumn winds start howling through the city, the streets are covered with a blanket of colorful leaves. People dress warmer and walk quickly along the sidewalks. Cafés become refuges where one can enjoy hot drinks and watch the raindrops slowly falling outside the windows, while autumn’s charm sneaks into everyday life.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "In the peaceful countryside, an old stone bridge spans a clear stream. It is surrounded by lush greenery and wild flowers blooming despite the cool air. An elderly man fishes silently from the bridge, completely absorbed by the tranquility and beauty of nature, as time slowly flows by in harmony and peaceful atmosphere.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "In a small forest workshop, a skilled craftsman works to create beautiful and durable wooden toys. Each figure is carefully carved and hand-painted, ready to inspire play and creativity in children. The artistic skill of the craft lives on through each unique, meticulously detailed, and lovingly executed work created with care and precision.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "Darkness falls early over the city as winter approaches. Streetlights cast a yellow glow over snow-covered sidewalks. Residents move quickly, wrapped in thick jackets and scarves, as they hurry home or to cozy gathering spots to escape the cold. Everyone feels that the long-awaited Christmas is nearly here.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "During the summer, the park transforms into a stage for outdoor theater. Spectators gather on blankets and brought chairs, under a sky that slowly transitions from blue to pink and purple. The actors perform classical works with passion and energy, to the great delight of the audience. An unforgettable weekend for all.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "In an old bookstore, where the scent of paper and leather fills the air, one can find literary treasures stacked from floor to ceiling. Each shelf offers stories from different times and places, and those who dare to explore can discover works by both well-known and forgotten authors. A large red book stands out.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "At the market downtown, the atmosphere is lively. Vendors shout out their offers and display everything from fresh fruits and vegetables to local crafts. Children run back and forth between the stalls, and the smell of freshly cooked food mixes with the sounds of talk and laughter.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "In a quiet residential area, neighbors have gathered for an annual street party. Long tables covered with tablecloths and fairy lights stretch along the road. Food is generously shared, and music streams from speakers. A man has become far too drunk and is picked up by the police.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "By the coast, where the sea meets the land, a family walks along the beach at sunset. Waves wash against the shore, and collected treasures like shells and polished stones fill the children's buckets. It would be a perfect end to the day, if it were not for the great shark lurking offshore.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    },
+    {
+        "prompt": "In a small square in the heart of the city stands a statue of the city's founder. People pass by, some stop to take photographs, while others just sit on nearby benches enjoying a break in the city's bustling life. An ice cream truck drives up, and all the children are delighted.",
+        "type": "Translation EN to SE",
+        "token_length": 65.0
+    }
+]

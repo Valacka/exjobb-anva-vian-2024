@@ -1,0 +1,31 @@
+[
+    {
+        "pre_prompt": "Skriv om den följande texten till att formell svenska. Exempel: <message>Vi har skickat en fråga om att få information enligt reglerna.</message> blir <message>Begäran om information inskickad i enlighet med gällande förfaranden.</message> Ett till exempel: <message>Vi vill höra vad du tycker för att hjälpa vår utvärdering.</start> blir <message>Er åsikt efterfrågas för att komplettera det pågående utvärderingsprocessen.</message> Ett till exempel: <message>",
+        "post_prompt": "'</message> blir <message> "
+    },
+    {
+        "prompt": "Lagen säger att den som är ansvarig måste se till att skicka in alla dokument som behövs i tid.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Vi behöver se över och förbättra våra processer för att göra jobbet effektivare. Detta måste dokumenteras ordentligt enligt våra regler.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "För att hålla våra tjänster på hög nivå måste alla inblandade regelbundet kontrollera kvaliteten, som våra myndigheter kräver.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "På grund av nya regler kommer vi att utvärdera hur väl de nya åtgärderna fungerar och se till att vi når våra mål effektivt.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    },
+    {
+        "prompt": "Vi har gjort en plan för att hantera de problem vi ser i sektorn. Den innehåller en steg-för-steg lista över vad vi behöver göra för att följa planen.",
+        "type": "Bureaucratic Persona",
+        "token_length": 50.0
+    }
+]
